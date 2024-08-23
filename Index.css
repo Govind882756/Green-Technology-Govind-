@@ -1,0 +1,81 @@
+
+.body-bg{
+    background-image: url(images/Background\ Images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bg-color{
+    background-color: darkgreen;
+    padding: 0.5%;
+    color: white;
+}
+.img-logo{
+    filter: invert(100%);
+}
+.span-text{
+    font-family: cursive;
+    color: rgb(209,73,146);
+    margin-left: -5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div-respons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+@media (min-width:412px) and (max-width:915px) {
+    .div-respons{
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .div-ul-li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+}
+@media (min-width:915px) and (max-width:1200px) {
+    .div-respons{
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .div-ul-li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+}
+
+.div-ul-li{
+    list-style: none;
+    text-decoration: none;
+    color:red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-ul-li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.div-ul-li a:hover{
+    color: rgb(221, 196, 89);
+    text-decoration: underline;
+}
+.div-ul-li a:active{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}

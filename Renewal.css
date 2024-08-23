@@ -1,0 +1,36 @@
+.Renewal-div-border{
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    /* border-top: 2px solid rgb(255, 0, 0);
+    border-bottom: 2px solid rgb(255, 0, 0); */
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(255, 242, 216);
+}
+@media (max-width:1200px) {
+    .Renewal-div-border{
+        /* border-left: 2px solid rgb(255, 255, 255);
+        border-right: 2px solid rgb(255, 255, 255);
+        border-top: 3px solid rgb(255, 0, 0); */
+        border: 2px solid rgb(255, 0, 0);
+        padding: 5px;
+        border-radius: 30px;
+      
+    }
+    
+}
+
+/* .row-div-space{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+ .img-padding{
+    padding: 15px;
+    height: 200px;
+    width: 100%;
+ }
+ h2{
+    font-size: 24px;
+    margin: 10px;
+ }
